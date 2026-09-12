@@ -1,1 +1,8 @@
 ._
+.DS_Store
+.o
+*.out
+*.exe
+*~
+histograma_secuencial
+histograma_paralelo
