@@ -1,4 +1,20 @@
-._
+# macOS metadata
+._*
+.DS_Store
+**/.DS_Store
+
+# Build artifacts
+*.o
+*.out
+*.exe
+
+# Temporary/editor files
+*~
+*.tmp
+
+# Local compiled binaries
+/Parcial 1/secuencial/histograma_secuencial
+/Parcial 1/paralelo/histograma_paralelo
 .DS_Store
 .o
 *.out
