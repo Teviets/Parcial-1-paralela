@@ -1,11 +1,11 @@
-# [NOMBRE CREATIVO DE LA CONSULTORA HPC] <!-- TODO: elegir nombre con tu compañera -->
+# [PARCIAL 1]
 
 Consultora de optimización de software — Examen Parcial 1: Consultoría HPC usando OpenMP.
 
 ## Integrantes
 
 - Teviet (teviet@gmail.com)
-- [Nombre completo de tu compañera] <!-- TODO -->
+- Yee404 (yee231193@uvg.edu.gt)
 
 ## Problema resuelto
 
@@ -27,6 +27,9 @@ Requiere un compilador con soporte OpenMP (en macOS, `gcc` de Homebrew: `brew in
 # Secuencial
 gcc -O2 -o secuencial/histograma_secuencial secuencial/histograma_secuencial.c
 ./secuencial/histograma_secuencial 200000000
+# o sino:
+# gcc -O2 -o histograma_secuencial histograma_secuencial.c
+# ./histograma_secuencial.exe 200000000
 
 # Paralelo (segundo argumento = número de threads, opcional)
 gcc -O2 -fopenmp -o paralelo/histograma_paralelo paralelo/histograma_paralelo.c
